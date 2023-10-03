@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+import MyRoutes from "./MyRoutes";
+import './mystyles.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyRoutes/>
+
+    </>
   );
 }
 
 export default App;
+
+/*
+Features: 
+  Component based
+  Component name must start with block letter(uppercase alphabet)
+  return can have only one child element
+  <> </>  - react fragment
+
+
+  language: javascript
+  script/syntax : JSX (javascript + xml)
+    every tag has its closing tag
+    eg: <div></div>, <br></br> , <hr /> , <input /> , <img />
+    class -> className
+    label for -> label htmlFor
+
+
+
+*/
