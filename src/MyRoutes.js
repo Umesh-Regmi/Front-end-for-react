@@ -45,6 +45,8 @@ import Layout from './layout/Layout'
 import Test from './Test'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 const MyRoutes = () => {
     return (
@@ -55,7 +57,8 @@ const MyRoutes = () => {
                     {/* <Route path='/' element = {<Home/>} /> */}
                     <Route index element = {<Home/>} />
                     <Route path='contact' element = {<Contact/>}/>
-
+                    <Route path='login' element = {<Login/>}/>
+                    <Route path='register' element = {<Register/>} />
 
 
                 </Route>
