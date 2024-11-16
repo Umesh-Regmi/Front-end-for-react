@@ -1,20 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { getAllCategories } from '../api/categoryapi'
 
 const Departments = () => {
     let [categories, setCategories] = useState([])
 
-    useEffect(() => {
-        getAllCategories()
-            .then(data => {
-                if (data.error) {
-                    console.log(data.error)
-                }
-                else {
-                    setCategories(data)
-                }
-            })
-    }, [])
 
     return (
         <>

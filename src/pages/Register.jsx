@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { register } from '../api/userApi'
 
 const Register = () => {
     let [username, setUsername] = useState('')
@@ -12,7 +11,7 @@ const Register = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        register(username, email, password)
+        (username, email, password)
             .then(data => {
                 if (data.error) {
                     setError(data.error)

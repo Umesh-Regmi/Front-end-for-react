@@ -40,9 +40,7 @@
 
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import First from './First'
 import Layout from './layout/Layout'
-import Test from './Test'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
