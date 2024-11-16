@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const Login = () => {
   return (
-    <div style={{minHeight:'79vh'}}>
+    <div style={{minHeight:'80vh'}}>
     <div className='w-1/2 p-5 bg-slate-200 m-auto my-3 rounded-lg'>
         <h1 className='text-3xl text-center font-bold underline mb-3'>Login</h1>
         <label htmlFor="email" className='text-xl text-left'>E-mail</label>
